@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr1",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "arr2",
+						"type": "uint256[]"
+					}
+				],
+				"name": "merge",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"soliproblems/MergeSortedArray.sol": "MergeSortedArrays"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"soliproblems/MergeSortedArray.sol": {
+			"keccak256": "0x64b53b8ff0becbd95ae68d5a98d675b673ac43ce5614d4299a354bc636b1df1f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3f0e79d10ea279fd7a1e294de0eec4dccf905e82899a1deaadff5d8c3152ddb9",
+				"dweb:/ipfs/QmWCQKnXY1XQ4RrU61A4JC18zKTpH9WwpccinnaxFKFtNk"
+			]
+		}
+	},
+	"version": 1
+}

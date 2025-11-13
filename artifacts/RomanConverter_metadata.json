@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "s",
+						"type": "string"
+					}
+				],
+				"name": "romanToInt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"soliproblems/RomanToInteger.sol": "RomanConverter"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"soliproblems/RomanToInteger.sol": {
+			"keccak256": "0x34c67afeecc164364dc786e18c1c58e646ad8d1a23e1df8cb1bcf192f3a1c6c0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://da743c9c1ae181c4849c721b1769f52f65da54b7faa8cfe8b4d345747c611d62",
+				"dweb:/ipfs/QmRNVtgXWM7jvvsmf5doGms2owtfruMHh7UANgcgmbdgUj"
+			]
+		}
+	},
+	"version": 1
+}
